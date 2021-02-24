@@ -1,0 +1,107 @@
+/***************GENERAL***************/
+* {
+    scroll-behavior: smooth;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+
+h1,
+h2 {
+  font-family: "Amatic SC", cursive;
+}
+
+ img {
+    width: 30%;
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+/*************HEADER*********************/
+header {
+  background-image: url("img/pyramides.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px 120px;
+}
+
+header a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 100%;
+  margin-bottom: 15px;
+}
+
+/*******************DESTINATIONS**********************/
+
+main #destinations img {
+  margin-right: 5%;
+}
+
+main #destinations {
+  display: flex;
+  align-items: center;
+}
+
+/***********************CONCEPT**********************/
+
+main #subscription {
+  text-align: center;
+}
+
+main #subscription ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+main #subscription ul li {
+  border: 1px solid darksalmon;
+  padding: 40px 20px;
+  width: calc(30% - 40px);
+}
+
+main #subscription ul li p:first-of-type {
+  color: darksalmon;
+  font-size: 40px;
+}
+
+main #subscription ul li p:first-of-type sup {
+  font-size: 15px;
+  color: black;
+}
+
+/********************CONCEPT*********************/
+
+#concept {
+  display: flex;
+  align-items: center;
+}
+
+#concept div {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+#concept a {
+  color: darksalmon;
+  border: 1px solid darksalmon;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#concept a:hover {
+    background-color: darksalmon;
+    color: white;
+}
+
